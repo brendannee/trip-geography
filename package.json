@@ -1,0 +1,28 @@
+{
+  "name": "trip-geography ",
+  "description": "Trip Geography Server",
+  "version": "0.1.0",
+  "author": {
+    "name": "Brendan Nee",
+    "email": "me@bn.ee"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/brendannee/trip-geography.git"
+  },
+  "dependencies": {
+    "debug": "2.2.0",
+    "nconf": "0.7.1",
+    "pg": "4.4.0",
+    "polyline": "0.1.0",
+    "restify": "3.0.3",
+    "underscore": "1.8.3"
+  },
+  "engines": {
+    "node": "0.12.x"
+  },
+  "private": true,
+  "scripts": {
+    "start": "node ./app.js"
+  }
+}

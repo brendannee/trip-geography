@@ -1,0 +1,4 @@
+{
+  "NODE_ENV": "local",
+  "POSTGRES_URL": "postgres://localhost:5432/trip_geography"
+}
